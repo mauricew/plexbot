@@ -1,0 +1,16 @@
+{
+  "owner": "MyNick",
+  "queryLimit": 5,
+  "queryInterval": 180,
+  "irc": {
+    "server": "irc.freenode.net",
+    "secure": true,
+    "nick": "PlexBot123",
+    "channel": "#plexbot"
+  },
+  "plex":{
+    "server": "192.168.0.200",
+    "username": "myusername",
+    "password": "mypassword"
+  }
+}

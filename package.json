@@ -1,0 +1,31 @@
+{
+  "name": "plexbot",
+  "version": "0.1.0",
+  "description": "IRC bot for Plex Media Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricew/plexbot.git"
+  },
+  "keywords": [
+    "plex",
+    "irc"
+  ],
+  "author": "Maurice Wahba",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mauricew/plexbot/issues"
+  },
+  "homepage": "https://github.com/mauricew/plexbot#readme",
+  "dependencies": {
+    "irc": "^0.5.2",
+    "plex-api": "^5.0.2"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  }
+}
